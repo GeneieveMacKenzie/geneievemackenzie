@@ -1,0 +1,84 @@
+.img-smithrock{
+    background-image: url("https://www.outdoorproject.com/sites/default/files/styles/odp_header_adaptive/public/blog-copies/1-1_19.jpg?itok=5Sy8A-r5");
+    opacity: .8;
+    background-attachment: fixed;
+}
+dd{
+    padding-right: 20px;
+}
+
+.flex{
+    display: flex;
+}
+.container-fluid{
+    padding-right:0%;
+    padding-left:0%;
+}
+.container{
+    display:flex;
+    align-content: center;
+    margin: 0%;
+    height: 40px;
+}
+dl{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+dd{
+    margin: 0%;
+}
+
+.bg-color{
+    background-color: rgb(252, 252, 252);
+}
+.flex{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 140px;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 21px;
+    padding-right: 57px;
+}
+body{
+    font-family: 'Poiret One', cursive;
+}
+.height{
+    height: 750px;
+}
+.height2{
+    height: 475px
+}
+.height3{
+    height: 200px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.height4{
+    height:400px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+}
+.height5{
+    height: 40px;
+}
+.sticky-top{
+    position: sticky;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.footer{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    height: 75px;
+    align-items: center;
+    font-size: 20px;
+}
