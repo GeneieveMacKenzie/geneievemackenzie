@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Geneieve MacKenzie</title>
 </head>
 
 <body>
@@ -19,10 +19,9 @@
             <div class="col-12">
                 <nav class="navbar navbar-expand-lg d-flex justify-content-end bg-color">
                     <dl>
-                        <dd class="nav-item"><a class="nav-link" href="#">ABOUT</a></dd>
-                        <dd class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></dd>
-                        <dd class="nav-item"><a class="nav-link" href="#">RESUME</a></dd>
-                        <dd class="nav-item"><a class="nav-link" href="#">CONTACT</a></dd>
+                        <dd class="nav-item"><a class="nav-link" href="#about">ABOUT</a></dd>
+                        <dd class="nav-item"><a class="nav-link" href="#port">PORTFOLIO</a></dd>
+                        <!-- <dd class="nav-item"><a class="nav-link" href="#resume">RESUME</a></dd> -->
                     </dl>
                 </nav>
             </div>
@@ -35,45 +34,64 @@
                 <h5>SOFTWARE DEVELOPER</h5>
             </div>
         </div>
-        <div class="row height d-flex align-content-center" style="background-color: rgb(255,255,255,.5)">
+        <div class="row height d-flex align-content-center" id="about" style="background-color: rgb(255,255,255,.5)">
             <div class="col-6">
-                <img src="" alt="">
+                <img src="Assets/IMG_4536.JPG" alt="">
             </div>
-            <div class = "col-6" style = "padding-right:85px">
+            <div class="col-6" style="padding-right:85px">
                 <h2>ABOUT ME</h2>
-                <p>I grew up in Central Oregon where I was taught that there is no better place to be than lost in the
-                    woods. If im not playing on my computer or chasing down my toddler, I'm hiking, biking, swimming and
-                    climbing my way through life. I also find adventure through the books I read and the art I create.
+                <p>Hi! My name is Gen and I am a full stack software developer in Boise, ID. I have experience using scrum methodologies to efficiently produce desired products that follow modern design principles. 
+                    
+                I grew up in Central Oregon where I developed my passion for hiking. If I'm not coding or chasing down my toddler, I'm flipping through my hiking guide to find the next hidden gem. I also find adventure through the books I read and the art I create.
                 </p>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="port">
             <div class="col height3 flex2">
                 <h2>PORTFOLIO</h2>
             </div>
         </div>
-        <div class="row justify-content-center height3">
-            <div class="col-12 col-md-3"><img src="https://yak-ridge.com/wp-content/uploads/2019/04/image-placeholder-350x350.png"
-                    width="200px" height="200px" alt=""></div>
-            <div class="col-12 col-md-3"><img src="https://yak-ridge.com/wp-content/uploads/2019/04/image-placeholder-350x350.png"
-                    width="200px" height="200px" alt=""></div>
-            <div class="col-12 col-md-3"><img src="https://yak-ridge.com/wp-content/uploads/2019/04/image-placeholder-350x350.png"
-                    width="200px" height="200px" alt=""></div>
-        </div>
         <div class="row justify-content-center height4">
-            <div class="col-12 col-md-3"><img src="https://yak-ridge.com/wp-content/uploads/2019/04/image-placeholder-350x350.png"
-                    width="200px" height="200px" alt=""></div>
-            <div class="col-12 col-md-3"><img src="https://yak-ridge.com/wp-content/uploads/2019/04/image-placeholder-350x350.png"
-                    width="200px" height="200px" alt=""></div>
-            <div class="col-12 col-md-3"><img src="https://yak-ridge.com/wp-content/uploads/2019/04/image-placeholder-350x350.png"
-                    width="200px" height="200px" alt=""></div>
-        </div>
-        <div class="row">
-            <div class="col bg-color footer">
-                <p>mackenzie.gen@gmail.com</p>
-                <p>541.678.3195</p>
+            <div class="col-4">
+                <a href="http://dinner-made-easy.herokuapp.com/#/" target="_blank">
+                    <div class="card shadow" style="width: 18rem; height: 16rem">
+                        <img class="card-img-top"
+                            src="Assets/DME.png"
+                            alt="Card image cap">
+                        <h5>Dinner Made Easy</h5>
+                        <h6>Vue.js / Node.js</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="https://kanban-fall19.herokuapp.com/#/" target="_blank">
+                    <div class="card shadow" style="width: 18rem; height: 16rem">
+                        <img class="card-img-top"
+                            src="Assets/Kanban.png"
+                            alt="Card image cap">
+                        <h5>Kanban</h5>
+                        <h6>Vue.js / Node.js</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="https://github.com/GeneieveMacKenzie/console-adventure" target="_blank">
+                    <div class="card shadow" style="width: 18rem; height: 16rem">
+                        <img class="card-img-top"
+                            src="Assets/Consolegame.png"
+                            alt="Card image cap">
+                        <h5>Console Adventure</h5>
+                        <h6>C#</h6>
+                    </div>
+                </a>
             </div>
         </div>
+    <div class="row">
+        <div class="col bg-color footer">
+            <p>mackenzie.gen@gmail.com</p>
+            <p>541.678.3195</p>
+        </div>
+    </div>
     </div>
 </body>
 
